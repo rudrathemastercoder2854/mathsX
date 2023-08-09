@@ -1,0 +1,57 @@
+.cointainer{
+    background-color:#00001a;
+    font-family: 'Concert One', cursive;
+    font-family: 'Dosis', sans-serif;
+}
+.logo{
+    width:100px;
+}
+.navmenu ul li a{
+    color:#8600b3;
+    text-decoration: none;
+    font-size: 30px;
+ 
+ }
+ .navmenu ul li{
+     display: inline-block;
+     margin: 10px;
+ }
+ .navmenu  ul li a:hover{
+     color:white;
+ }
+ footer img{
+    width:100px;
+    margin-left: 150px;
+    margin-top: 50px;
+ }
+ .seperator{
+    font-size:80px;
+    color: #600080;
+    margin-left: 300px;
+    margin-top: -110px;
+ }
+ .Copyright{
+  font-size: 30px;
+  margin-top: -70px;
+  letter-spacing: 2px;
+  color: #600080;
+ }
+ .icon{
+    margin-left:1150px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: -50px;
+ }
+ footer{
+    background-color: #010121;
+    position: sticky;
+    height:200px;
+ }
+ .welmathx{
+    color:white;
+    font-size: 50px;
+ }
+ .selectcls{
+    color: #600080;
+    font-size: 30px;
+ }

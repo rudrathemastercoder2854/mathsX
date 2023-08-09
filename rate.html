@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="rate.css">
+	<title>Rate Our App and Post a Comment </title>
+	<link rel="icon" href="800px_COLOURBOX20756506-removebg-preview.png">
+</head>
+<body>
+<img src="800px_COLOURBOX20756506-removebg-preview.png" class="logo">
+	<div class="wrapper">
+		<h3 style="color:#8600b3;">Please Rate and Post a Comment</h3>
+		<form action="#">
+			<div class="rating">
+				<input type="number" name="rating" hidden>
+				<i class='bx bx-star star' style="--i: 0;"></i>
+				<i class='bx bx-star star' style="--i: 1;"></i>
+				<i class='bx bx-star star' style="--i: 2;"></i>
+				<i class='bx bx-star star' style="--i: 3;"></i>
+				<i class='bx bx-star star' style="--i: 4;"></i>
+			</div>
+			<textarea name="opinion" cols="30" rows="5" placeholder="Your Comment....." required important></textarea>
+		</form>
+	</div>
+    <button class="show-modal">Submit</button>
+    <section>
+        <span class="overlay"></span>
+        <div class="modal-box">
+          <i class="fa-regular fa-circle-check"></i>
+          <h2>Thanks</h2>
+          <h3>You have sucessfully rated our app </h3>
+          <div class="buttons">
+            <button class="close-btn">Change Opinion</button>
+            <a href="index.html"><button>Proceed</button></a>
+          </div>
+        </div>
+      </section>
+  
+</body>
+<script src="rate.js"></script>
+</html>

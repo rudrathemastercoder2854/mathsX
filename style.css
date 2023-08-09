@@ -20,8 +20,8 @@
     color:white;
 }
 .navbar ul{
-    margin-left:550px;
-    margin-top:-40px;
+    margin-left:700px;
+    margin-top:-60px;
 }
 .signup{
     background-color: #600080;
@@ -29,6 +29,7 @@
     padding: 10px;
     color:white;
     border-radius:5px;
+    
 }
 .demovideo{
     background-color: #600080;
@@ -39,26 +40,7 @@
 }
 .loginanddemo{
     margin-left: 1150px;
-    margin-top:-110px;
-}
-#search{
-    padding: 10px;
-    width:400px;
-    color:#600080;
-    background-color: aliceblue;
-    margin-top: 25px;
-    margin-left: 50px;
-}
-#searchbutton{
-    background: transparent;
-    border: 0;
-}
-#searchicon{
-    font-size: 30px;
-}
-.searchspan{
-    margin-left: 510px;
-    margin-top: -55px;
+    margin-top:-125px;
 }
 .menubar ul li a{
     color:#8600b3;

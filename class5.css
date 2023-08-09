@@ -1,0 +1,47 @@
+.cointainer{
+    background-color:#00001a;
+    font-family: 'Concert One', cursive;
+    font-family: 'Dosis', sans-serif;
+}
+.logo{
+    width:100px;
+}
+.navbar ul li a{
+   color:#8600b3;
+   text-decoration: none;
+   font-size: 20px;
+
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.navbar ul li a:hover{
+    color:white;
+}
+.navbar ul{
+    margin-left:550px;
+    margin-top:-60px;
+}
+.signup{
+    background-color: #600080;
+    border: 0;
+    padding: 10px;
+    color:white;
+    border-radius:5px;
+}
+.demovideo{
+    background-color: #600080;
+    border: 0;
+    padding: 10px;
+    color:white;
+    border-radius:5px;
+}
+.loginanddemo{
+    margin-left: 1150px;
+    margin-top:-125px;
+}
+.menu{
+    background-color:#010121;
+    height:150px;
+}

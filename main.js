@@ -2,7 +2,7 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
-  const phrases = ["Class 1", "Class 2", "Class 3","Class 4","Class 5","Class 6","Class 7","Class 8","Class 9","Class 10"];
+  const phrases = ["Class 1", "Class 2", "Class 3","Class 4","Class 5"];
   const el = document.getElementById("typewriter");
 
   let sleepTime = 100;
@@ -18,14 +18,14 @@ function sleep(ms) {
         await sleep(sleepTime);
       }
 
-      await sleep(sleepTime * 10);
+      await sleep(sleepTime * 20);
 
       for (let i = curWord.length; i > 0; i--) {
         el.innerText = curWord.substring(0, i - 1);
         await sleep(sleepTime);
       }
 
-      await sleep(sleepTime * 5);
+      await sleep(sleepTime * 20);
 
       if (curPhraseIndex === phrases.length - 1) {
         curPhraseIndex = 0;
@@ -36,3 +36,4 @@ function sleep(ms) {
   };
 
   writeLoop();
+  
